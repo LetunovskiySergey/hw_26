@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hw_26/screens/todo_list_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
           bodyMedium: TextStyle(fontSize: 16),
         ),
       ),
+      home: TodoListScreen(),
     );
   }
 }
