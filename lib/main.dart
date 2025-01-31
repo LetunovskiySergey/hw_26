@@ -1,6 +1,10 @@
-import 'package:flutter/cupertino.dart';
-import 'package:hw_26/my_app.dart';
+import 'package:flutter/material.dart';
+import 'package:hw_26/task_app.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    MaterialApp(
+      home: TaskApp(),
+    ),
+  );
 }
