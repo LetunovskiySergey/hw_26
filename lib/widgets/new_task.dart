@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hw_26/helpers/format_daretime.dart';
+import 'package:hw_26/helpers/format_date_time.dart';
 import 'package:hw_26/models/task.dart';
 
 class NewTask extends StatefulWidget {
